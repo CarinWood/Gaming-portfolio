@@ -1,0 +1,19 @@
+.see-more-btn {
+    border: 1px solid white;
+    margin-top: 40px;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.see-more-btn:hover {
+    opacity: 0.7;
+}
+
+.see-more-btn:active {
+    transform: translateY(2.5px);
+}

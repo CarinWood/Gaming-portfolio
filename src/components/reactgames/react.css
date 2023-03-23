@@ -1,0 +1,125 @@
+.react-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bj {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.game-title {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: -15px;
+    width: 40px;
+    height: 55px;
+    border: 1px solid white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0px;
+    background-color: whitesmoke;
+    padding: 2px;
+
+}
+
+.letter {
+    font-size: 10px;
+    color: red;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.heart {
+    color: red;
+    width: 6px;
+    font-size: 5px;
+    margin-top: -10px;
+}
+
+.card2 {
+    margin-top: -50px;
+    margin-right: -15px;
+    width: 40px;
+    height: 55px;
+    border: 1px solid white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0px;
+    background-color: whitesmoke;
+    padding: 2px;
+    position: relative;
+}
+
+.letter2 {
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.spade {
+   color: black;
+   width: 5px;
+   height: 5px;
+   font-size: 5px;
+   margin-top: -11px;
+   margin-left: 1px!important; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.big {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    margin-left: -6px;
+    margin-top: -6px;
+    font-size: 11px!important;
+    color: black!important;
+}
+
+.upside-down {
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+    margin-top: 0px;
+    transform: rotate(180deg);
+    align-self: flex-end;
+    justify-self: flex-end!important;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.box {
+    position: relative;
+}
+
+.box2 {
+    transform: rotate(180deg);
+    align-self: flex-end!important;
+    justify-self: flex-end!important;
+    margin-top: 24px;
+}
+

@@ -3,6 +3,11 @@
   src: url('./assets/fonts/Outerorbit-rggRL.ttf');
 }
 
+@font-face {
+  font-family: "Cinzel";
+  src: url('./assets/fonts/Cinzel-Regular.ttf');
+}
+
 
 body {
   margin: 0;
