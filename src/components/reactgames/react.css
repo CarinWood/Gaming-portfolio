@@ -16,7 +16,7 @@
 }
 
 .game-title {
-    font-family: sans-serif;
+    font-family: "roboto light";
     letter-spacing: 2px;
     font-size: 20px;
 }
@@ -121,5 +121,8 @@
     align-self: flex-end!important;
     justify-self: flex-end!important;
     margin-top: 24px;
+    width: 20px;
 }
+
+
 

@@ -7,11 +7,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "Cinzel";
-    font-size: 35px;
+    font-family: "roboto light";
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 p {
     font-size: 12px;
     font-family: sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .headline-container {
+        height: 10vh;
+    }
+
+    .headline-container {
+            font-size: 18px;
+    }
 }

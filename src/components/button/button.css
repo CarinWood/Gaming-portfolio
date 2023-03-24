@@ -3,11 +3,15 @@
     margin-top: 40px;
     background: black;
     color: white;
-    font-family: sans-serif;
+    font-family: "roboto light";
+    letter-spacing: 1px;
     font-size: 16px;
     padding: 5px 10px;
     width: 100px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .see-more-btn:hover {
@@ -16,4 +20,8 @@
 
 .see-more-btn:active {
     transform: translateY(2.5px);
+}
+
+.play {
+    margin-left: 2px;
 }

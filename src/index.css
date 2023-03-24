@@ -8,6 +8,11 @@
   src: url('./assets/fonts/Cinzel-Regular.ttf');
 }
 
+@font-face {
+  font-family: "roboto light";
+  src: url(./assets/fonts/Roboto-Light.ttf);
+}
+
 
 body {
   margin: 0;
@@ -15,5 +20,6 @@ body {
   box-sizing: border-box;
   background-color: black;
   color: white;
+  font-family: "roboto light";
 }
 
