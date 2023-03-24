@@ -18,14 +18,14 @@ export const ReactGames = () => {
 
             <div className='card2'>
                 <div className='box'>
-                <p className='letter2'>A</p>
+                <p className='bokstav'>A</p>
                 <BsSuitSpadeFill className="spade"/>
                 </div>
                 <BsFillSuitSpadeFill className='big'/>
-                <div className='box2'>
+            
                 <p className='letter2'>A</p>
-                <BsSuitSpadeFill className="spade"/>
-                </div>         
+                <BsSuitSpadeFill className="spade2"/>
+                       
             </div>
 
             <Button/>
