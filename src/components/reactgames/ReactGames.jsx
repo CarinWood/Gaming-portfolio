@@ -8,7 +8,7 @@ import { BsFillSuitHeartFill, BsFillSuitSpadeFill, BsSuitSpadeFill } from "react
 export const ReactGames = () => {
   return (
     <div className='react-page'>
-        <Headline text={'games with react.js'}/>
+        <Headline text={'react.js games'}/>
         <section className='bj'>
             <p className='game-title'>Black Jack</p>
             <div className='card'>

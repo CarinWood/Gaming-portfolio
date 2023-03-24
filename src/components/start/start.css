@@ -11,12 +11,38 @@
     font-family: "Outerorbit";
     font-size: 35px;
     letter-spacing: 3px;
+    position: relative;
+    color: white;
+    overflow: hidden;
   }
+
+  .headline:before {
+    content:'';
+    position: absolute;
+    left: 120%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+    animation: animatetext 2.8s linear forwards;
+  }
+
+  @keyframes animatetext {
+    0% {
+      left: -20%;
+    }
+    100% {
+      left: 120%
+    }
+    
+  }
+
+ 
+
 
 
   @media screen and (max-width: 600px) {
     .headline {
-      font-size: 15px;
+      font-size: 20px;
       letter-spacing: 2px;
     }
   }

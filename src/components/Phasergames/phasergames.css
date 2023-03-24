@@ -18,5 +18,12 @@
     justify-content: flex-start;
 }
 
+img {
+    width: 80px;
+    height: auto;
+}
 
+a {
+    text-decoration: none;
+}
 
