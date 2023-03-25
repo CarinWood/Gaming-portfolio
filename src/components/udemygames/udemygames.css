@@ -1,4 +1,4 @@
-.phaser-container {
+.unity-container {
     height: auto;
     width: 100%;
     display: flex;
@@ -6,31 +6,14 @@
     align-items: center;
     justify-content: flex-start;
     position: relative;
-    margin-bottom: 100px;
-    
+    margin-bottom: 30px;
 }
 
-.flappy, .birdgame {
+
+.dodegame {
     margin-top: 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
-
-img {
-    width: 80px;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-#birdgame-image {
-    width: 70px;
-}
-
-
-

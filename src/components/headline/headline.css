@@ -13,10 +13,7 @@
     text-transform: uppercase;
 }
 
-p {
-    font-size: 12px;
-    font-family: sans-serif;
-}
+
 
 @media screen and (max-width: 600px) {
     .headline-container {
