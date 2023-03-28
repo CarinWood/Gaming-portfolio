@@ -2,7 +2,7 @@ import './App.css';
 import Phasergames from './components/Phasergames/Phasergames';
 import { ReactGames } from './components/reactgames/ReactGames';
 import { Start } from './components/start/Start';
-import Udemygames from './components/udemygames/Udemygames';
+import UnityGames from './components/unitygames/Unitygames'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Start/>
       <ReactGames/>
       <Phasergames/>
-      <Udemygames/>
+      <UnityGames/>
      
     </>
   );

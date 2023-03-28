@@ -13,7 +13,7 @@ export const ReactGames = () => {
         <section className='bj'>
             <p className='game-title'>Black Jack</p>
             <img src={Playcards} alt="" />
-            <a href="https://carinwood-black-jack-game.netlify.app/" target="_blank">
+            <a href="https://black-jack-carinwood.vercel.app/" target="_blank">
             <Button/>
             </a>
     
